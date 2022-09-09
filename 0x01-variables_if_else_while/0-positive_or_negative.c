@@ -2,11 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - this is where the program start running
  *
- * Description: 'the program's description'
- *
- * Return: Always 0 (Success)
+ * Return:returns zero if no error and non zero if error
  */
 int main(void)
 {
@@ -16,13 +14,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	printf("Enter a number: ");
-	scanf("%If", &n);
 	if (n < 0)
-		printf("is a negative");
+		printf("%d is a negative ", n);
 	else if	(n > 0)
-		printf("is a positive");
+		printf("%d is a positive ", n);
 	else
-		printf("is zero");
+		printf("%d is zero ", n);
 
 	return (0);
 }
