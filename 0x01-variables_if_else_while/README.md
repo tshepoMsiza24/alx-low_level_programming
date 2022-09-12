@@ -8,3 +8,4 @@
 7-print_tebahpla
 8-print_base16
 9-print_combo
+100-print_comb
