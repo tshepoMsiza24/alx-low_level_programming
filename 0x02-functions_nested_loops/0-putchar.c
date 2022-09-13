@@ -1,13 +1,20 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - this is where the program start running
+ * main - the main programs to print putchar
  *
- * Return:Always returns 0.
+ * Return:returns 0
 */
 int main(void)
 {
+	int i = 0;
+	char out[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 
-	_putchar("_putchar\n");
-
+	while (i < 8)
+	{
+		putchar(out[i]);
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
