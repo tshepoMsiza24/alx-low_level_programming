@@ -5,14 +5,13 @@
 /**
  * _strdup - duplicate to new memory space location
  * @str: char
- * Return: Always 0
+ * Return: 0
  */
 
 char *_strdup(char *str)
 {
 	char *array;
-	int i;
-	int r;
+	int i, r = 0;
 
 	if (str == NULL)
 		return (NULL);
@@ -21,6 +20,7 @@ char *_strdup(char *str)
 		i++;
 
 	array = malloc(sizeof(charof(char) * (i + 1));
+
 	if (array == NULL)
 		return (NULL);
 
