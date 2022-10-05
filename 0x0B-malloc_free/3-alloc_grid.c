@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * malloc_grid - nested loop to make grid
+ * alloc_grid - nested loop to make grid
  * @width: array's width
  * @height: array's height
  * Return: pointer to array
  */
 
-int **malloc_grid(int width, int height)
+int **alloc_grid(int width, int height)
 {
 	int **array;
 	int x, y;
